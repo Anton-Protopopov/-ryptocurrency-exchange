@@ -1,0 +1,84 @@
+.cards {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: flex;
+    gap: 35px;
+  }
+}
+
+.card__container {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 70px;
+}
+
+.card {
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+
+  &__number {
+    margin: 0;
+    margin-bottom: 9px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 31px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__transactions {
+    margin: 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  &__span {
+    margin: 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  &__btn {
+    padding: 16px 22px;
+  }
+}
+.scor-btn {
+  padding-left: 50px;
+  padding-right: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-image: url(../img/X.svg);
+  background-position: left 25px center;
+  background-size: 16px 12px;
+  background-repeat: no-repeat;
+}

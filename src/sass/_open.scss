@@ -1,0 +1,54 @@
+.open {
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+  &__body {
+    margin-top: 200px;
+    padding: 50px;
+    width: 500px;
+    background-color: $athens-gray;
+    border-radius: 50px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+  }
+
+  &__span {
+    width: 70px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__input {
+    margin-left: 18px;
+  }
+
+  &__title{
+    margin: 0 0 35px 75px;
+  }
+
+  &__buttom{
+   padding-left: 75px;
+  }
+
+  &__btn{
+    padding: 14px 21px;
+  }
+}
+
+.hide{
+  display: none;
+}

@@ -1,0 +1,238 @@
+.currency {
+  &__title {
+    margin-bottom: 56px;
+  }
+
+  &__header {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  &__list {
+    max-width: 588px;
+  }
+
+  &__client {
+    margin-bottom: 45px;
+    width: 588px;
+    padding: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+
+  &__div{
+    text-align: center;
+  }
+
+  &__item {
+    margin: 0;
+    width: 100%;
+    display: table;
+  }
+
+  &__span-price {
+    display: table-cell;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__span-code {
+    position: relative;
+    overflow: hidden;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__span-code:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    margin-left: 0.5em;
+    width: 100%;
+    border-bottom: 1px dashed #000;
+  }
+  &__span-price {
+    text-align: right;
+    width: 1%;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+  }
+  .currency__span-price {
+    text-align: right;
+    width: 1%;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+  }
+
+  &__exchange {
+    padding: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  &__exc {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__span {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__select {
+    width: 134px;
+    height: 44px;
+  }
+
+  &__optionFrom {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__optionTo {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__sum{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__btn{
+    padding: 47px 13px;
+    border-radius: 7px;
+  }
+}
+.change{
+
+  &__client{
+    padding: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    background-color: $Mercury;
+  }
+
+  &__item {
+    margin: 0;
+    width: 100%;
+    display: table;
+  }
+
+  &__span-price--bottom {
+    padding-right: 20px;
+    display: table-cell;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background-image: url(../img/Vector1.svg);
+    background-position: right center;
+    background-size: 16px 12px;
+    background-repeat: no-repeat;
+  }
+
+  &__span-bottom {
+    position: relative;
+    overflow: hidden;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__span-bottom:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    margin-left: 0.5em;
+    width: 100%;
+    border-bottom: 1px dashed $Carnation;
+  }
+  &__span-price--bottom {
+    text-align: right;
+    width: 1%;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+  }
+  &__span-price--bottom {
+    text-align: right;
+    width: 1%;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+  }
+  &__span-price--top {
+    padding-right: 20px;
+    display: table-cell;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background-image: url(../img/Vector.svg);
+    background-position: right center;
+    background-size: 16px 12px;
+    background-repeat: no-repeat;
+  }
+
+  &__span-top {
+    position: relative;
+    overflow: hidden;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__span-top:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    margin-left: 0.5em;
+    width: 100%;
+    border-bottom: 1px dashed $Mantis;
+  }
+  &__span-price--top {
+    text-align: right;
+    width: 1%;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+  }
+  &__span-price--top {
+    text-align: right;
+    width: 1%;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+  }
+}
+
+
+.Change__list {
+  width: 700px;
+}

@@ -1,0 +1,110 @@
+@mixin text-link {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+  &:hover {
+    color: $burning-orange;
+  }
+
+  &:focus {
+    color: $white-color;
+    background-color: $tuscany;
+  }
+  &:focus-visible {
+	outline: none;
+  }
+
+  &:active {
+    color: $grenadier;
+  }
+}
+@mixin social {
+  transition: fill 0.3s ease-in-out;
+
+  &:hover {
+    fill: $burning-orange;
+  }
+
+  &:focus{
+    fill: $tuscany;
+  }
+
+  &:active {
+    fill: $grenadier;
+  }
+}
+
+@mixin search {
+  transition: border-bottom  0.3s ease-in-out;
+
+  &:hover {
+    border-bottom: 1px solid $burning-orange;
+  }
+
+  &:focus-visible {
+	outline: none;
+    border-bottom: 1px solid  $burning-orange;
+  }
+
+  &:active {
+    border-bottom: 1px solid $grenadier;
+  }
+}
+@mixin btn1 {
+  transition: background-color  0.3s ease-in-out, outline  0.3s ease-in-out;
+
+  &:hover {
+    background-color: $tuscany;
+  }
+
+  &:focus-visible {
+	outline: none;
+  background-color: $tuscany;
+  }
+
+  &:focus {
+    outline: 3px solid $grenadier;
+  background-color: $burning-orange;
+  }
+
+  &:active {
+    background-color: $grenadier;
+  }
+}
+@mixin btn2 {
+  transition: background-color  0.3s ease-in-out, border  0.3s ease-in-out;
+
+  &:hover {
+    background-color: $burning-orange;
+  }
+
+  &:focus-visible {
+    outline: none;
+  background-color: $tuscany;
+  }
+
+  &:focus {
+    border: 3px solid $burning-orange;
+  background-color: $tuscany;
+  }
+
+  &:active {
+    border: 3px solid $grenadier;
+    background-color: $grenadier;
+  }
+}
+@mixin form {
+  transition: color  0.3s ease-in-out, border  0.3s ease-in-out;
+
+  &:hover::placeholder {
+    color: $burning-orange;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:focus {
+    border: 1px solid $burning-orange;
+  }
+
+}

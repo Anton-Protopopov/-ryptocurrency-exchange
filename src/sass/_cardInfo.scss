@@ -1,0 +1,188 @@
+.cardInfo {
+  &__header {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__numder {
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  &__text {
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__span {
+    padding-left: 25px;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+.translation {
+  margin-bottom: 50px;
+  &__container {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__body {
+    padding: 25px 50px;
+    width: 606px;
+    background-color: $athens-gray;
+    border-radius: 50px;
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__label {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__span {
+    width: 340px;
+    margin-right: 18px;
+    text-align: right;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__btn {
+    padding: 16px 25px 16px 58px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background-image: url(../img/envelope.svg);
+    background-position: left 25px center;
+    background-size: 20px 16px;
+    background-repeat: no-repeat;
+  }
+}
+
+.balance {
+  &__container {
+    padding: 25px 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+
+.charts {
+  &__container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &__balance {
+    padding: 25px 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+}
+.tabl {
+  width: 100%;
+  &__div {
+    overflow-y: scroll;
+    height: 200px;
+  }
+  &__container {
+    padding: 25px 50px 70px 50px;
+    height: 300px;
+    background-color: $athens-gray;
+    border-radius: 50px;
+  }
+
+  thead {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $white-color;
+    border-radius: 15px;
+    background-color: $denim;
+  }
+
+  th {
+    padding: 20px 45px;
+  }
+
+  tbody {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $oxford-blue;
+    tr {
+      border-bottom: 2px solid rgba(0, 82, 255, 0.1);
+    }
+  }
+}
+
+#Sender {
+  border-radius: 15px 0 0 15px;
+}
+
+#date {
+  border-radius: 0 15px 15px 0;
+}
+
+.expense {
+  color: $Carnation;
+}
+
+.profit {
+  color: $Mantis;
+}
+
+.back-btn {
+  padding: 16px 25px 16px 50px;
+  margin-bottom: 33px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-image: url(../img/coolicon.svg);
+  background-position: left 25px center;
+  background-size: 16px 12px;
+  background-repeat: no-repeat;
+}
