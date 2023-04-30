@@ -2,6 +2,7 @@ import { setChildren } from "redom";
 import { createHeader } from "./header.js";
 import { createClient } from "./createClient.js";
 import { accountsClient } from "./clientsApi.js"
+import "../sass/style.scss";
 const headerBody = createHeader();
 const account = async () => {
   setChildren(document.querySelector('header'), headerBody.header);

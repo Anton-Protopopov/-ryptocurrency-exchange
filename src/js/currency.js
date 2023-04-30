@@ -3,6 +3,7 @@ import { currenciesCode, currencies, currencyBuy } from "./clientsApi.js";
 import { formatMoney } from './format.js'
 import { validationСurrencyBuy } from './validationsForm.js'
 import { createHeader } from "./header.js";
+import "../sass/style.scss";
 
 const headerBody = createHeader();
 setChildren(document.querySelector('header'), headerBody.header);

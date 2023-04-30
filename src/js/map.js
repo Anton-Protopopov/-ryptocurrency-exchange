@@ -1,6 +1,7 @@
 import { el, setChildren } from "redom";
 import { createHeader } from "./header.js";
 let token = JSON.parse(localStorage.getItem("myKey"));
+import "../sass/style.scss";
 
 const headerBody = createHeader();
 setChildren(document.querySelector('header'), headerBody.header);

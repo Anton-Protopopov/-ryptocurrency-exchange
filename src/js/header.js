@@ -1,9 +1,10 @@
 import { el, setChildren } from "redom";
+import logo from '../assets/img/Logo.png'
 
 export const createHeader = () => {
 const header = el('div.header');
 const headerContainer = el('div.container.header__container');
-const headerIcon = el('img.header__img',{src: "../img/Logo.png", alt: 'Logo'});
+const headerIcon = el('img.header__img',{src: logo, alt: 'Logo'});
 const headerContainerBtn = el('div.header__button');
 const BtnOpen = el('button.header__btn.btn#open','Выйти');
 const BtnCurrency = el('button.header__btn.btn#currency','Валюта');
